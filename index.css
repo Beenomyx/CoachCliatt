@@ -1,6 +1,32 @@
-.center {
+.main_box {
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+}
+header {
+    background-color:rgb(221, 237, 237);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    height: 125px;
+    color: black;
+}
+footer {
+    position: fixed;
+    text-align: center;
+    right: 0;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: rgb(221, 237, 237);
+}
+.Title {
     display: flex;
     place-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 5vh;
+}
+body {
+    background-color:azure;
 }
